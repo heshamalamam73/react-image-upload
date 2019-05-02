@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -13,8 +14,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ 
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -30,4 +30,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.photo-page{
+	width: 100%;
+}
+.photo-page .images {
+	padding: 20px;
+	display: inline-flex;
+
+}
+.photo-page .images img{
+	padding: 20px;
+
+}
+
+#upload-btn{
+	background-color: green;
+	padding: 10px 20px;
+	border-radius: 10%;
+	cursor: pointer;
+	opacity: .6;
+}
+#upload-btn:hover{
+	opacity: 1;
 }

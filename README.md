@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Upload image  with react $$ cloudinary 
+
+1- npm i --save
+
+2- change  cloudinary account link and upload_preset with your data ((=>> Upload.js))
+
+3- npm start
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Available Scripts
 
